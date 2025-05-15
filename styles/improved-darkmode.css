@@ -48,10 +48,14 @@ body {
 .swagger-ui .opblock .opblock-summary-path,
 .swagger-ui .opblock .opblock-summary-path__deprecated {
   color: #fff;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .swagger-ui .opblock .opblock-summary-description {
-  color: #fff;
+  color: #eee;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .swagger-ui .info {
@@ -294,7 +298,7 @@ h2.title {
 
 .swagger-ui table thead tr td,
 .swagger-ui table thead tr th {
-  border-bottom: 1px solid rgb(90 98 119 / 20%);
+  border-bottom: 1px solid rgb(90 98 98 / 20%);
   color: #ebebeb;
 }
 
@@ -572,4 +576,16 @@ span.json-schema-2020-12-json-viewer__name.json-schema-2020-12-json-viewer__name
   span.json-schema-2020-12-keyword__name.json-schema-2020-12-keyword__name--primary,
 .model-box ul.json-schema-2020-12-keyword__children {
   margin-left: 10px !important;
+}
+
+.swagger-ui .opblock-description-wrapper p,
+.swagger-ui .opblock-external-docs-wrapper p,
+.swagger-ui .opblock-title_normal p {
+  color: #ddd;
+}
+
+.swagger-ui .opblock-description-wrapper,
+.swagger-ui .opblock-external-docs-wrapper,
+.swagger-ui .opblock-title_normal {
+  color: #ccc;
 }
